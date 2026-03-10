@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main] # Revisa si tu rama se llama 'main' o 'master' y cámbialo si es necesario
+    branches: [main] # Si tu rama se llama master, cámbialo a [master]
   workflow_dispatch:
 
 permissions:
@@ -16,10 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
       - name: Install, build, and upload with Astro
         uses: withastro/action@v3
-        # Esta acción detecta automáticamente si usas npm, pnpm o yarn
 
   deploy:
     needs: build
