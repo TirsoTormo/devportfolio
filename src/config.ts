@@ -1,92 +1,53 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: 'Tirso Tormo',
+  title: 'Estudiante de ASIR | Futuro SysAdmin ',
+  role: 'Estudiante de ASIR & Entusiasta del Home Labbing',
+  description: 'Portfolio de Tirso Tormo - Técnico SMR y estudiante de ASIR especializado en administración de redes, virtualización y sistemas.',
+  accentColor: '#14b8a6',
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: 'tirso.tormoo@gmail.com',
+    github: 'https://github.com/TirsoTormo',
+    linkedin: 'https://www.linkedin.com/in/tirso-tormo/',
+    twitter: ''
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    'Soy graduado en Sistemas Microinformáticos y Redes (SMR) y actual estudiante de 1º de ASIR en España. Me apasiona la administración de sistemas, la infraestructura de redes y revivir hardware legacy para exprimir su máximo potencial.',
+  skills: [
+    'Linux (Debian/Ubuntu)',
+    'Windows Server & Active Directory',
+    'Virtualización (Proxmox VE)',
+    'Redes (TCP/IP, DNS, DHCP, VLANs)',
+    'Bash Scripting',
+    'Mantenimiento Hardware Legacy'
+  ],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+      title: '🛠️ Home Lab y Prácticas ASIR (Coming Soon...)',
+      description: 'Actualmente estoy documentando la configuración de mi Home Lab físico. Muy pronto publicaré aquí mis proyectos reales: despliegue de contenedores LXC, configuración de redes y VLANs, despliegue de Directorio Activo con Windows Server, y servicios Linux optimizados para bajo consumo de RAM.',
+      technologies: ['Proxmox VE', 'Debian', 'Windows Server', 'Networking']
+    }
   ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
+  experience: [],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "CIP FP BATOI",
+      degree: "Grado Superior en Administración de Sistemas Informáticos en Red (ASIR)",
+      dateRange: "2025 - Presente",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+        "Estudio en profundidad de arquitecturas de red, enrutamiento y seguridad perimetral",
+        "Implementación y administración de sistemas de almacenamiento físico y lógico (RAID, LVM)",
+        "Despliegue y gestión de sistemas operativos de servidor (Linux y Windows Server)"
+      ]
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Col·legi Sant Roc Alcoi",
+      degree: "Grado Medio en Sistemas Microinformáticos y Redes (SMR)",
+      dateRange: "2023 - 2025",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
-  ],
+        "Título completado con sólida base teórica y práctica en hardware",
+        "Montaje, mantenimiento, diagnóstico y reparación de equipos informáticos",
+        "Despliegue y configuración inicial de redes locales (LAN) y servicios básicos"
+      ]
+    }
+  ]
 };
