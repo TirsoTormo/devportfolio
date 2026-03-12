@@ -20,13 +20,7 @@ export const siteConfig = {
     'Bash Scripting',
     'Mantenimiento Hardware Legacy'
   ],
-  projects: [
-    {
-      title: '🛠️ Home Lab y Prácticas ASIR (Coming Soon...)',
-      description: 'Actualmente estoy documentando la configuración de mi Home Lab físico. Muy pronto publicaré aquí mis proyectos reales: despliegue de contenedores LXC, configuración de redes y VLANs, despliegue de Directorio Activo con Windows Server, y servicios Linux optimizados para bajo consumo de RAM.',
-      technologies: ['Proxmox VE', 'Debian', 'Windows Server', 'Networking']
-    }
-  ],
+  projects: [],
   experience: [],
   education: [
     {
