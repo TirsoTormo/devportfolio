@@ -20,7 +20,14 @@ export const siteConfig = {
     'Bash Scripting',
     'Mantenimiento Hardware Legacy'
   ],
-  projects: [],
+  projects: [
+    {
+      title: 'Argos - Network Intelligence Suite',
+      description: 'Herramienta CLI modular para auditoría de redes locales (LAN). Permite descubrimiento de activos L2, tests de velocidad cliente/servidor e inyección de paquetes a medida. Código profesional refactorizado con Pylint (10/10) y sistema Plug & Play.',
+      tech: ['Python', 'Scapy', 'GitHub Actions', 'CI/CD'],
+      link: 'https://github.com/TirsoTormo/argos-net-intelligence',
+    }
+  ],
   experience: [],
   education: [
     {
